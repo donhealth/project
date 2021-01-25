@@ -44,5 +44,3 @@
     - name: Take the list in listvar2, shuffle it and make it into a string
       debug:
         msg: "{{ listvar2 | shuffle | join('') }}"
-
-
